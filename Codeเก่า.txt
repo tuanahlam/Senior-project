@@ -1,0 +1,21 @@
+        
+        # ################# Image Processing #################
+        # originalImg = cv2.imread(imgPath)
+        # grayImg = cv2.cvtColor(originalImg, cv2.COLOR_BGR2GRAY)
+        # adaptiveThresh = cv2.adaptiveThreshold(grayImg,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY,85,11)
+        # kernel = np.ones((1,1), np.uint8)
+        # dilation = cv2.dilate(adaptiveThresh,kernel,iterations=1)
+        # erosion = cv2.erode(dilation,kernel,iterations=1)
+    
+        #cv2.imwrite("Image\\"+lang+"\\"+lang+str(userId)+".jpg",erosion)
+
+
+
+
+    # #Check space ระหว่างข้อความ
+    # new_txt = ''
+    # for i in range(len(raw_txt)):
+    #     if ord(raw_txt[i]) != 32:
+    #         new_txt += raw_txt[i]
+    #     elif ord(raw_txt[i+1]) < 3585:
+    #         new_txt += raw_txt[i]

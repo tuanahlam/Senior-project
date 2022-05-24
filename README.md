@@ -1,2 +1,1 @@
-# Senior-project
-A text-to-speech mobile application for the visually impaired 
+# DemoRead2U_ver3
